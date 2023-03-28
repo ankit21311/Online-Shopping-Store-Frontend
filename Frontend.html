@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apna Bazaar-Online Shopping Store</title>
+    <link rel="stylesheet" href="e-commerce.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+    <div class="header">
+     <div class="container">
+    <div class="navbar">
+        <div class="logo">
+            <style>
+                img{
+                    display: block;
+                    margin: 0 auto;
+                }
+            </style>
+            <body>
+                <<img src="https://img.freepik.com/free-vector/online-shopping-concept-landing-page_23-2148253518.jpg?size=626&ext=jpg" width="700px">>
+            </body>
+           <a href="file:///D:/all.html/e-commerce.html"></a>
+        </div>
+        <style>
+            h1 {
+              font-size: 40px;
+              color: rgb(59, 75, 107);
+              font-family: Arial, Georgia, 'Times New Roman', Times, serif;
+              text-align: center;
+            }
+          </style>
+            <body>
+                <h1>ApnaBazar-Online Shopping Store</h1>
+              </body>
+        <nav>
+            <style>
+                #MenuItems {
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  list-style-type: none;
+                  padding: 0;
+                }
+          
+                #MenuItems li {
+                  text-align: center;
+                  margin: 0 10px;
+                }
+          
+                #MenuItems li a {
+                  display: block;
+                  position: relative;
+                  color: #333;
+                  text-decoration: none;
+                  font-size: 20px;
+                  margin-bottom: 10px;
+                }
+          
+                #MenuItems li a:before {
+                  content: "";
+                  position: absolute;
+                  bottom: -20px;
+                  left: 0;
+                  right: 0;
+                  margin: 0 auto;
+                  width: 40px;
+                  height: 40px;
+                  background-image: url("images/icon.png");
+                  background-repeat: no-repeat;
+                  background-size: contain;
+                }
+              </style>
+            </head>
+            <body>
+              <ul id="MenuItems">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="account.php">Account</a></li>
+              </ul>
+            </body>
+        </nav>
+       <a href="shoping-cart.html"><img src="https://cdn-icons-png.flaticon.com/512/3916/3916045.png" width="100px" height="100px"></a>
+        <!-- <img src="https://tinyurl.com/bdyny27a" class="menu-icon" onclick="menutoggle()"> -->
+    </div>
+    
+    <div class="row">
+        <div class="col-2">
+            <pre><h1>                                     "Buy Everything Within Seconds" </h1></pre>
+            <style>
+                .button-container {
+                  display: flex;
+                  justify-content: center;
+                  text-align: center;
+                }
+              
+                .btn {
+                  display: inline-block;
+                  padding: 10px 20px;
+                  background-color: #f00;
+                  color: #fff;
+                  text-decoration: none;
+                  border-radius: 4px;
+                  font-size: 16px;
+                  text-align: right;
+                  margin-left: 40%;
+                }
+              </style>
+              
+              <div class="button-container">
+                <a href="https://www.amazon.in/" class="btn">Explore Now &#8594;</a>
+              </div>
+              
+        <div class="col-2">
+            <img src="./image1.png" alt="">
+        </div>
+    </div>
+    </div>
+    </div>
+    <!-- Featured -->
+    <style>
+        .categories {
+          background-color: #f2f2f2;
+          padding: 50px 0;
+        }
+      
+        .small-container {
+          max-width: 1000px;
+          margin: 0 auto;
+          padding: 0 20px;
+        }
+      
+        .title {
+          text-align: center;
+          margin-bottom: 50px;
+        }
+      
+        .row {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          flex-wrap: wrap;
+        }
+      
+        .col-3 {
+          flex-basis: calc(33.33% - 20px);
+          margin-bottom: 20px;
+        }
+      
+        .category-img-container {
+          position: relative;
+          overflow: hidden;
+        }
+      
+        .category-img-container img {
+          display: block;
+          width: 100%;
+          height: auto;
+          transition: transform 0.3s ease-out;
+        }
+      
+        .category-img-container:hover img {
+          transform: scale(1.1);
+        }
+      
+        .category-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 20px;
+  opacity: 0;
+  transition: opacity 0.3s ease-out;
+}
+      
+        .category-img-container:hover .category-text {
+          opacity: 1;
+        }
+        
+        .category-img-container img {
+          max-width: 100%;
+          height: auto;
+        }
+      </style>
+      
+      <div class="categories">
+        <div class="small-container">
+          <h2 class="title">Products Categories</h2>
+          <div class="row">
+            <div class="col-3">
+              <div class="category-img-container">
+                <img src="https://icons.veryicon.com/png/o/commerce-shopping/supermarket-classification/clothing-category-1.png" alt="">
+                <div class="category-text">Clothing</div>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="category-img-container">
+                <img src="https://cdn-icons-png.flaticon.com/512/1261/1261163.png" alt="">
+                <div class="category-text">Food & Vegetables</div>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="category-img-container">
+                <img src="https://cdn-icons-png.flaticon.com/512/5499/5499206.png" alt="">
+                <div class="category-text">Shoes &amp; Wearbles</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+            
+        <!-- </div></div> -->
+    </div>
+     <!-- Featured Products -->
+     <div class="small-container">
+  <h2 class="title">Featured Products</h2>
+  <div class="row">
+    <div class="col-4">
+      <a href="product-details.html">
+        <img src="https://cdn.vectorstock.com/i/preview-1x/41/24/black-and-red-layout-e-sport-t-shirt-design-vector-21144124.webp" alt="Red Printed T-Shirt">
+      </a>
+      <a href="product-details.html"></a>
+        <h2>Red Printed T-Shirt</h2>
+      
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-o"></i>
+      </div>
+      <p>Rs500.00</p>
+    </div>
+    <div class="col-4">
+      <a href="./product2.html">
+        <img src="https://cdn.vectorstock.com/i/preview-1x/43/21/shoes-vector-724321.webp" alt="Shoes">
+      </a>
+      <h2>Shoes</h2>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-half-o"></i>
+        <i class="fa fa-star-o"></i>
+      </div>
+      <p>Rs300.00</p>
+    </div>
+    <div class="col-4">
+      <a href="./product4.html">
+        <img src="https://cdn.vectorstock.com/i/preview-1x/29/17/isometric-smart-watch-modern-vector-40782917.webp" alt="Smart Watch">
+      </a>
+      <h2>Smart Watch</h2>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-half-o"></i>
+      </div>
+      <p>Rs1000.00</p>
+    </div>
+    <div class="col-4">
+      <img src="https://cdn.vectorstock.com/i/preview-1x/03/09/snowboarding-warm-pants-vector-46350309.webp" alt="Pants">
+      <h2>Pants</h2>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-o"></i>
+      </div>
+      <p>Rs550.00</p>
+    </div>
+  </div>
+ 
+<div class="small-container">
+         <h2 class="title"> Featured Products </h2>
+         <div class="row">
+             <div class="col-4">
+                 <a href="product-deitals.html"><img src="https://cdn.vectorstock.com/i/preview-1x/41/24/black-and-red-layout-e-sport-t-shirt-design-vector-21144124.webp"></a>
+                  <a href="product-deitals.html"></a><h2>Red Printed T-Shirt</h2>
+                 <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                 </div>
+                <p>Rs500.00</p>
+             </div>
+             <div class="col-4">
+               <a href="./product2.html"><img src="https://cdn.vectorstock.com/i/preview-1x/43/21/shoes-vector-724321.webp" style="height: 318px;"></a>
+                <h2>Shoes</h2>
+                <div class="rating">
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star-half-o"></i>
+                   <i class="fa fa-star-o"></i>
+                </div>
+               <p>Rs300.00</p>
+            </div>
+            <div class="col-4">
+              <a href="./product4.html"><img src="https://cdn.vectorstock.com/i/preview-1x/29/17/isometric-smart-watch-modern-vector-40782917.webp"  style="height: 318px;"></a>
+                <h2>Smart Watch</h2>
+                <div class="rating">
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star-half-o"></i>
+                </div>
+               <p>Rs1000.00</p>
+            </div>
+            <div class="col-4">
+                <img src="https://cdn.vectorstock.com/i/preview-1x/03/09/snowboarding-warm-pants-vector-46350309.webp">
+                <h2>Pants</h2>
+                <div class="rating">
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star-o"></i>
+                </div>
+               <p>Rs550.00</p>
+            </div>
+         </div>
+         <h2 class="title"> Latest Products </h2>
+         <div class="row">
+            <div class="col-4">
+                <img src="https://cdn.vectorstock.com/i/preview-1x/62/96/laptops-vector-256296.webp">
+                <h2>Laptops</h2>
+                <div class="rating">
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star-o"></i>
+                </div>
+               <p>Rs55000.00</p>
+            </div>
+            <div class="col-4">
+               <img src="https://cdn.vectorstock.com/i/preview-1x/24/61/headphones-vector-132461.webp">
+               <h2>Headphones</h2>
+               <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-half-o"></i>
+                  <i class="fa fa-star-o"></i>
+               </div>
+              <p>Rs5000.00</p>
+           </div>
+           <div class="col-4">
+               <img src="https://cdn.vectorstock.com/i/preview-1x/56/40/boy-denim-jackets-vector-1165640.webp">
+               <h2>Jackets</h2>
+               <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-half-o"></i>
+               </div>
+              <p>Rs1050.00</p>
+           </div>
+           <div class="col-4">
+            <img src="https://cdn.vectorstock.com/i/preview-1x/56/65/car-parts-vector-1015665.webp">
+            <h2>Car Body-parts</h2>
+            <div class="rating">
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star-o"></i>
+            </div>
+           <p>Rs250.00</p>
+        </div>
+           <div class="col-4">
+               <img src="https://cdn.vectorstock.com/i/preview-1x/37/03/jar-with-orange-perfume-on-a-with-orange-slices-vector-31603703.webp">
+               <h2>Organic Perfumes</h2>
+               <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-o"></i>
+               </div>
+              <p>Rs150.00</p>
+           </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="https://cdn.vectorstock.com/i/preview-1x/93/39/toys-vector-349339.webp">
+                <h2>Premium-Toys</h2>
+                <div class="rating">
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star-o"></i>
+                </div>
+               <p>Rs550.00</p>
+            </div>
+            <div class="col-4">
+               <img src="https://cdn.vectorstock.com/i/preview-1x/05/05/multi-colored-books-vector-1410505.webp">
+               <h2>Books</h2>
+               <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-half-o"></i>
+                  <i class="fa fa-star-o"></i>
+               </div>
+              <p>Rs150.00</p>
+           </div>
+           <div class="col-4">
+               <img src="https://cdn.vectorstock.com/i/preview-1x/22/32/set-simple-icons-alcoholic-beverages-vector-29122232.webp">
+               <h2>Baverages</h2>
+               <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-half-o"></i>
+               </div>
+              <p>Rs250.00</p>
+           </div>
+
+        </div>
+     </div>
+     <!-- Offer -->
+     <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1CcYjNvse0o_pFgu9H-X3aAr1M6FTPZvMLMD4DKcWPQ&s" class="offer-img">
+                </div>
+                <div class="col-2">
+                    <p1><b>"Exclusively Available on ApnaBazar"</b></p1>
+                    <h1>Smart Band and Top Fashioned</h1>
+                    <h4>The Mi Smart Band 4 features a 39.9% larger
+                        (than Mi Band 3) AMOLED color full-touch display with adjustable brightness,so everything is clear as can be.
+                    </h4>
+                    <a href="" class="btn">Buy Now &#8594;</a>
+                </div>
+            </div>
+            </div>
+     </div>
+     <!-- testimonial -->
+     <div class="testimonial">
+         <div class="small-container">
+             <div class="row">
+                 <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                     <p>Looking for a one-stop-shop for all your online shopping needs? Look no further than Apna Bazaar! Our website offers a wide selection of products, ranging from electronics and home appliances to fashion, beauty, and more</p>
+                     <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                     </div>
+                     <img src="https://seeklogo.com/images/B/Bahamas-logo-3CC8DF8A08-seeklogo.com.png" >
+                     <h3>Bahamas</h3>
+                    </div>
+                    <div class="col-3">
+                        <i class="fa fa-quote-left"></i>
+                         <p>finding the perfect item has never been easier. Plus, with secure payment options and fast shipping, you can shop with confidence knowing that your purchases will arrive quickly and safely</p>
+                         <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                         </div>
+                         <img src="https://seeklogo.com/images/S/sparx-logo-B9ECFE3A4B-seeklogo.com.png" >
+                         <h3>Sparx</h3>
+                 </div>
+                 <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                     <p>We are providing our customers with the best value for their money. That's why we offer competitive pricing on all our products, as well as frequent promotions and discounts.</p>
+                     <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                     </div>
+                     <img src="https://seeklogo.com/images/J/jack-and-jones-logo-15C7809A6D-seeklogo.com.png" >
+                     <h3>Jack & Jones</h3>
+                    </div>
+             </div>
+         </div>
+     </div>
+<!-- brands -->
+<div class="brands">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-5">
+               <a href="https://www.godrej.com/"> <img src="./logo-godrej.png" ></a>
+            </div>
+            <div class="col-5">
+                <a href="https://www.oppo.com/in/"><img src="./logo-oppo.png" ></a>
+            </div>
+            <div class="col-5">
+              <a href="https://www.coca-colaindia.com/"><img src="./logo-coca-cola.png" ></a>
+            </div>
+            <div class="col-5">
+             <a href="https://www.paypal.com/in/webapps/mpp/home?kid=p39982204948&gclid=CjwKCAjwpKCDBhBPEiwAFgBzjx7s9UkfNSt_IARz_WvB9FN9VqUB3Pvu1CM-hCa1pnqWoy_rrEMgNRoChgoQAvD_BwE&gclsrc=aw.ds"><img src="./logo-paypal.png" ></a>
+            </div>
+            <div class="col-5">
+              <a href="https://www.philips.co.in/"> <img src="./logo-philips.png" ></a>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and ios mobile phone.</p>
+                </div>
+                <div class="app-logo">
+              <a href="https://play.google.com/store"> <img src="./play-store.png"  ></a>  
+                 <a href="https://www.apple.com/in/app-store/">   <img src="./app-store.png" ></a>
+                </div>
+               
+                <div class="footer-col-2">
+                    <img src="./logo-white.png">
+                    <p>Our Purpose Is To Sustainably Make the Pleasure and Benefits of Sports Accessible to the Many.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Link</h3>
+                   <ul>
+                       <li>Coupons</li>
+                       <li>Blog Post</li>
+                       <li>Retrun Policy</li>
+                       <li>Join Affiliate</li>
+                   </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow us</h3>
+                   <ul>
+                     <a href="https://www.facebook.com/">  <li>Facebook</li></a>
+                    <a href="https://twitter.com/?lang=en">   <li>Twitter</li></a>
+                     <a href="https://www.instagram.com/">  <li>Instagram</li></a>
+                      <a href="https://www.youtube.com/"> <li>YouTube</li></a>
+                   </ul>
+                </div>
+            </div>
+            <hr>
+     <a href="https://www.facebook.com/ola.kikishs"><p class="copyright">developer Ankit Raj</p></a>
+         </div>
+</div>
+<!-- js for toggle menu -->
+<script>
+    var MenuItems = document.getElementById("MenuItems");E
+    MenuItems.style.maxHeight="0px";
+    function menutoggle(){
+        if(MenuItems.style.maxHeight=="0px")
+        {
+            MenuItems.style.maxHeight="200px"
+        }
+        else{
+            MenuItems.style.maxHeight="0px";
+        }
+    }
+</script>
+</body>
+</html>
